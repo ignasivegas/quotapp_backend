@@ -5,7 +5,8 @@ gem 'rails', '3.2.18'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'mysql2'                             #MySQL
+gem 'haml'                               #HTML abstraction markup language
 
 
 # Gems used only for assets and not required
