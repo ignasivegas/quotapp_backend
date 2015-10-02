@@ -17,6 +17,8 @@ ActiveRecord::Schema.define(:version => 20140629144655) do
     t.string   "author"
     t.text     "content"
     t.string   "category"
+    t.string   "source"
+    t.string   "language"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
