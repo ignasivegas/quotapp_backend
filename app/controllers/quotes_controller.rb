@@ -11,7 +11,11 @@ class QuotesController < ApplicationController
 			:category => quote.category
 		}
 
-		render :json => { :data => quote_json, :status => 200 }
+		sleep(3.0)
+
+		render :json => { :author  => quote.author,
+			:content => quote.content,
+			:category => quote.category}
 	end
 
 end
